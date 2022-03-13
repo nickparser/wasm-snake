@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Game</title>
+    <style>
+        .game {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #new-game-button {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Press to start:</p>
+    <p>W - Up</p>
+    <p>S - Down</p>
+    <p>A - Left</p>
+    <p>D - Right</p>
+    <button id="new-game-button" onclick="document.location.reload()">New Game</button>
+    <div class="game">
+        <canvas id="game"></canvas>
+    </div>
+</body>
+
+</html>
