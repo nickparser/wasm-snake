@@ -1,7 +1,7 @@
 # wasm-snake
 Snake Game with Rust & WebAssembly
 
-![alt snake](https://github.com/nickparser/wasm-snake/blob/master/img/snake.gif)
+![alt text](https://github.com/nickparser/wasm-snake/blob/master/img/snake.gif)
 
 ### how to run
 ```
